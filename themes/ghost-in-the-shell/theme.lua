@@ -33,8 +33,8 @@ theme.border_normal = "#000000"
 theme.border_focus  = focus_colour
 theme.border_marked = "#91231c"
 
-theme.taglist_fg_focus  = focus_colour
-theme.tasklist_fg_focus = focus_colour
+theme.taglist_bg_focus  = focus_colour
+theme.tasklist_bg_focus = focus_colour
 
 -- There are other variable sets
 -- overriding the default one when
@@ -67,9 +67,10 @@ theme.taglist_squares_unsel = theme_assets.taglist_squares_unsel(
 -- Variables set for theming the menu:
 -- menu_[bg|fg]_[normal|focus]
 -- menu_[border_color|border_width]
+theme.menu_bg_focus = focus_colour
 theme.menu_submenu_icon = themes_path.."default/submenu.png"
 theme.menu_height = dpi(15)
-theme.menu_width  = dpi(100)
+theme.menu_width  = dpi(200)
 
 -- You can add as many variables as
 -- you wish and access them by using
