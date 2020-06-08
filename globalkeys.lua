@@ -4,6 +4,7 @@ local awful = require("awful")
 local beautiful = require("beautiful")
 local gears = require("gears")
 local hotkeys_popup = require("awful.hotkeys_popup")
+local menubar = require("menubar")
 
 local keys = gears.table.join(
     awful.key({ modkey,           }, "s",      hotkeys_popup.show_help,
